@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/design/static/css/main.e6c13ad2.css",
+    "main.css": "/design/static/css/main.28b886bd.css",
     "main.js": "/design/static/js/main.768d3dd8.js",
     "static/media/clef.svg": "/design/static/media/clef.7516abbf2e4d4c2b8e8719df9623da06.svg",
     "static/media/fridg-it.svg": "/design/static/media/fridg-it.f187aa78028dd41647c3e5455d5089da.svg",
@@ -39,11 +39,11 @@
     "static/media/noteeWireframe4.png": "/design/static/media/noteeWireframe4.5643b78c0d60bf28df58.png",
     "static/media/noteeWireframe3.png": "/design/static/media/noteeWireframe3.61ff9317c0271a19da63.png",
     "index.html": "/design/index.html",
-    "main.e6c13ad2.css.map": "/design/static/css/main.e6c13ad2.css.map",
+    "main.28b886bd.css.map": "/design/static/css/main.28b886bd.css.map",
     "main.768d3dd8.js.map": "/design/static/js/main.768d3dd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
+    "static/css/main.28b886bd.css",
     "static/js/main.768d3dd8.js"
   ]
 }
