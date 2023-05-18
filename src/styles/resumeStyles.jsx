@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { colors } from "../styles/colors";
 
 export const Root = styled.div`
   font-size: 1.1rem;

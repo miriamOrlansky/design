@@ -16,7 +16,6 @@ import baking4 from "../Images/baking4.png";
 import baking5 from "../Images/baking5.png";
 import baking6 from "../Images/baking6.png";
 import baking7 from "../Images/baking7.png";
-import baking8 from "../Images/baking8.png";
 import baking9 from "../Images/baking9.png";
 export const Root = styled.div`
   padding: 0.3rem calc((100vw - 85vw) / 2);

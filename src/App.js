@@ -26,7 +26,7 @@ return (
   <Root backColor={color}>
 	<Router>
 	  <Nav>
-        <NavLink to="/" TheColor={textColor} onClick={() => { setColor("#F5E7E1"); setTextColor("#2D343B")}}>
+        <NavLink to="/design" TheColor={textColor} onClick={() => { setColor("#F5E7E1"); setTextColor("#2D343B")}}>
           Work
         </NavLink>
         <NavLink
