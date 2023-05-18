@@ -46,7 +46,7 @@ return (
     </Nav>
 	
 	<Routes>
-		<Route exact path='/' element={<Home />}  />
+		<Route exact path='/design' element={<Home />}  />
 		<Route path='/play' element={<Play/>} />
 		<Route path='/resume' element={<Resume/>} />
     <Route path='/notee' element={<Notee/>} />
