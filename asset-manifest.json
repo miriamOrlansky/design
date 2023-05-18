@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design/static/css/main.28b886bd.css",
-    "main.js": "/design/static/js/main.69cc7aab.js",
+    "main.js": "/design/static/js/main.ba3d44c0.js",
     "static/media/clef.svg": "/design/static/media/clef.7516abbf2e4d4c2b8e8719df9623da06.svg",
     "static/media/fridg-it.svg": "/design/static/media/fridg-it.f187aa78028dd41647c3e5455d5089da.svg",
     "static/media/img1.png": "/design/static/media/img1.5daa3d36537dfb68baf8.png",
@@ -14,7 +14,6 @@
     "static/media/baking9.png": "/design/static/media/baking9.847631605a1858d84b1d.png",
     "static/media/baking2.png": "/design/static/media/baking2.ae46eae595f9255a6e4e.png",
     "static/media/baking4.png": "/design/static/media/baking4.1dcd4b0a5fa7c0def2b4.png",
-    "static/media/baking8.png": "/design/static/media/baking8.8e4376d09d47f384fc29.png",
     "static/media/img3.png": "/design/static/media/img3.3214483eba4b4427beda.png",
     "static/media/baking3.png": "/design/static/media/baking3.7675ae55c6817debf412.png",
     "static/media/img4.png": "/design/static/media/img4.b5171e95d0ae944c907b.png",
@@ -40,10 +39,10 @@
     "static/media/noteeWireframe3.png": "/design/static/media/noteeWireframe3.61ff9317c0271a19da63.png",
     "index.html": "/design/index.html",
     "main.28b886bd.css.map": "/design/static/css/main.28b886bd.css.map",
-    "main.69cc7aab.js.map": "/design/static/js/main.69cc7aab.js.map"
+    "main.ba3d44c0.js.map": "/design/static/js/main.ba3d44c0.js.map"
   },
   "entrypoints": [
     "static/css/main.28b886bd.css",
-    "static/js/main.69cc7aab.js"
+    "static/js/main.ba3d44c0.js"
   ]
 }
