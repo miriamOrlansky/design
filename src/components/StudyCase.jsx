@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { Info, Picture, Root, Title } from "../styles/studyCaseStyles";
 
 export default function StudyCase({ title, source, link }) {
   return (
     <Root>
-      <a href={link}>
+      <Link to={link}>
         <Info>
           <Title>{title}</Title>
           <div>View Case Study</div>
@@ -11,7 +12,7 @@ export default function StudyCase({ title, source, link }) {
         <Picture>
           <img src={source} alt="caseStudyImg" />
         </Picture>
-      </a>
+      </Link>
     </Root>
   );
 }
