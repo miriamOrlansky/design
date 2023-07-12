@@ -9,7 +9,7 @@ import {
 export default function Clef() {
   return (
     <div>
-      <div>Clef</div>
+      <div>Clef WITH CHANGES</div>
     </div>
   );
 }
