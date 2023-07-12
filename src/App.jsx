@@ -1,6 +1,6 @@
 import React from "react";
 import { Root, Nav, NavLink } from "./components/NavbarElements";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Play from "./pages/play";
 import Resume from "./pages/resume";
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <Root backColor={color}>
-      <Router>
+      <HashRouter>
         <Nav>
           <NavLink
             to="/"
@@ -62,7 +62,7 @@ function App() {
           <Route path="/graphics" element={<Graphics />} />
           <Route path="/clef" element={<Clef />} />
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer />
     </Root>
   );
