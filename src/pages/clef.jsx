@@ -6,9 +6,9 @@ import {
   Row,
 } from "../styles/pagesStyles";
 
-import clef1 from "../Images/clef1";
-import clef2 from "../Images/clef2";
-import clef3 from "../Images/clef3";
+import clef1 from "../Images/clef1.jpg";
+import clef2 from "../Images/clef2.jpg";
+import clef3 from "../Images/clef3.jpg";
 
 export default function Clef() {
   return (
