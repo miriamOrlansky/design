@@ -87,14 +87,6 @@ export default function Clef() {
       <Row>
         <div>I then added the visual designs to the wireframes.</div>
       </Row>
-
-      <Row>
-        <img className="fourth" src={visual1} alt="visual1" />
-        <img className="fourth" src={visual2} alt="visual2" />
-        <img className="fourth" src={visual3} alt="visual3" />
-        <img className="fourth" src={visual4} alt="visual4" />
-      </Row>
-
       <Row>
         <div className="thick regular top">Final Prototype</div>
       </Row>
