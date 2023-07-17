@@ -35,7 +35,7 @@ export default function Clef() {
           style={{ border: "1px solid rgba(0, 0, 0, 0.1)", maxWidth: "100%" }}
           width="600"
           height="337.66"
-          src="https://www.figma.com/proto/DfiFKiu5hcIHiRWy6D20UL/CLEFFF?page-id=0%3A1&type=design&node-id=125-3820&viewport=1820%2C320%2C0.19&t=w57Ak8Q3ClWq9ORG-1&scaling=scale-down&starting-point-node-id=5%3A3&mode=design"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDfiFKiu5hcIHiRWy6D20UL%2FCLEFFF%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D125-3820%26viewport%3D1820%252C320%252C0.19%26t%3Dw57Ak8Q3ClWq9ORG-1%26scaling%3Dscale-down%26starting-point-node-id%3D5%253A3%26mode%3Ddesign"
           allowfullscreen
         ></iframe>
       </Row>
@@ -95,7 +95,7 @@ export default function Clef() {
           style={{ border: "1px solid rgba(0, 0, 0, 0.1)", maxWidth: "100%" }}
           width="600"
           height="337.66"
-          src="https://www.figma.com/proto/DfiFKiu5hcIHiRWy6D20UL/CLEFFF?page-id=0%3A1&type=design&node-id=125-3820&viewport=1820%2C320%2C0.19&t=w57Ak8Q3ClWq9ORG-1&scaling=scale-down&starting-point-node-id=5%3A3&mode=design"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDfiFKiu5hcIHiRWy6D20UL%2FCLEFFF%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D125-3820%26viewport%3D1820%252C320%252C0.19%26t%3Dw57Ak8Q3ClWq9ORG-1%26scaling%3Dscale-down%26starting-point-node-id%3D5%253A3%26mode%3Ddesign"
           allowfullscreen
         ></iframe>
       </Row>
