@@ -9,6 +9,9 @@ import {
 import clef1 from "../Images/clef1.jpg";
 import clef2 from "../Images/clef2.jpg";
 import clef3 from "../Images/clef3.jpg";
+import visual1 from "../Images/clefcolor1.jpg";
+import visual2 from "../Images/clefcolor2.jpg";
+import visual3 from "../Images/clefcolor3.jpg";
 
 export default function Clef() {
   return (
@@ -22,7 +25,7 @@ export default function Clef() {
         <div>
           <div className="thick large">Class Project</div>
           <div className="thin small">
-            <div>Problem: No one to jam with.</div>
+            <div>Problem: No one to have jam sessions with.</div>
             <div>Role: Sole Designer</div>
           </div>
         </div>
@@ -64,14 +67,13 @@ export default function Clef() {
         </div>
       </Row>
       <Row>
-        <div className="thick regular top">Wireframes</div>
+        <div className="thick regular top">Sketches</div>
       </Row>
       <Row>
         <div>
           I created these wireframes based on the user interviews by gearing the
-          app solely towards notifying the user when monthly budgets are getting
-          used. Take away the complications - once the app is set up, it will do
-          everything.
+          app towards creating an easy way for musicians to connect with other
+          musicians.
         </div>
       </Row>
 
@@ -85,7 +87,14 @@ export default function Clef() {
         <div className="thick regular top">Visual Design</div>
       </Row>
       <Row>
-        <div>I then added the visual designs to the wireframes.</div>
+        <div>
+          I then digitally created the visual wireframes based on the sketches.
+        </div>
+      </Row>
+      <Row>
+        <img className="fourth" src={visual1} alt="clef1" />
+        <img className="fourth" src={visual2} alt="clef2" />
+        <img className="fourth" src={visual3} alt="clef3" />
       </Row>
       <Row>
         <div className="thick regular top">Final Prototype</div>
