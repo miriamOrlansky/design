@@ -16,7 +16,7 @@ import visual3 from "../Images/clefcolor3.jpg";
 export default function Clef() {
   return (
     <Root>
-      <TitleSection backColor="#D8D6FF">
+      <TitleSection backColor="#64AFFF">
         <Title>Clef</Title>
         <Subtitle>Music Jamming App</Subtitle>
       </TitleSection>
