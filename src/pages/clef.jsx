@@ -17,7 +17,7 @@ export default function Clef() {
   return (
     <Root>
       <TitleSection backColor="#64AFFF">
-        <Title>Clef</Title>
+        <Title>Clef Changed!</Title>
         <Subtitle>Music Jamming App</Subtitle>
       </TitleSection>
 
