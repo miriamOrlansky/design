@@ -8,6 +8,7 @@ import Clef from "./pages/clef";
 import Graphics from "./pages/graphics";
 import Notee from "./pages/notee";
 import FridgIt from "./pages/fridgit";
+import Petite from "./pages/petite";
 import Footer from "./components/Footer";
 
 import { useState } from "react";
@@ -61,6 +62,7 @@ function App() {
           <Route path="/fridg-it" element={<FridgIt />} />
           <Route path="/graphics" element={<Graphics />} />
           <Route path="/clef" element={<Clef />} />
+          <Route path="/petite" element={<Petite />} />
         </Routes>
       </HashRouter>
       <Footer />
