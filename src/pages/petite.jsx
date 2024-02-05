@@ -18,29 +18,19 @@ export default function Petite() {
         <Title>Petite Patisserie</Title>
         <Subtitle>Branding for a quaint french bakery</Subtitle>
       </TitleSection>
-
+      <Row>
+        <div className="thick regular">Company Statement</div>
+      </Row>
       <Row>
         <div>
           <div className="thin small">
             <div>
-              Problem: Lack of home organization, lack of time, boredom while
-              cooking
+              {" "}
+              Petite Patisserie is your local homemade bakery. We strive to
+              cater to the individual and to the community as a whole.
             </div>
-            <div>Role: Sole Designer</div>
           </div>
         </div>
-      </Row>
-      <Row>
-        <div className="thick regular">Final Prototype</div>
-      </Row>
-      <Row>
-        <iframe
-          style={{ border: "1px solid rgba(0, 0, 0, 0.1)", maxWidth: "100%" }}
-          width="600"
-          height="337.66"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3pNgPA3INnIdGQiWkHrc66%2FFridg-It%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D271-4233%26viewport%3D80%252C253%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A93"
-          allowfullscreen
-        ></iframe>
       </Row>
       <Row>
         {" "}
