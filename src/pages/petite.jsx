@@ -16,12 +16,11 @@ export default function Petite() {
     <Root>
       <TitleSection backColor="#c49a6c">
         <Title>Petite Patisserie</Title>
-        <Subtitle>A fun way to organize your kitchen life</Subtitle>
+        <Subtitle>Branding for a quaint french bakery</Subtitle>
       </TitleSection>
 
       <Row>
         <div>
-          <div className="thick large">Class Project</div>
           <div className="thin small">
             <div>
               Problem: Lack of home organization, lack of time, boredom while
