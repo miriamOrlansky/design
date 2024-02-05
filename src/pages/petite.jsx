@@ -14,7 +14,7 @@ import sketch4 from "../Images/sketch4.jpg";
 export default function Petite() {
   return (
     <Root>
-      <TitleSection backColor="#eiai6a">
+      <TitleSection backColor="#000000">
         <Title>Petite Patisserie</Title>
         <Subtitle>A fun way to organize your kitchen life</Subtitle>
       </TitleSection>
