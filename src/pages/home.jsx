@@ -71,15 +71,10 @@ export default function Home() {
         <CaseStudy title="Fridg-It" source={FridgIt} link="/fridg-it" />
         <StudyCase title="Clef" source={Clef} link="/clef" />
         <CaseStudy title="Notee" source={Notee} link="/notee" />
-        {/* <CaseStudy
-          title="Petite Pattiserrie"
+        <StudyCase
+          title="Petite Patisserie"
           source={GraphicDesign}
           link="/petite"
-        /> */}
-        <StudyCase
-          title="Graphic Design Work"
-          source={GraphicDesign}
-          link="/graphics"
         />
       </SectionTwo>
     </Root>
