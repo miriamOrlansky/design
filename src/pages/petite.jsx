@@ -36,9 +36,9 @@ export default function Petite() {
         </div>
       </Row>
       <Row>
-        <img className="fourth" src={crossiontAsset} alt="crossiont" />
-        <img className="fourth" src={bundtAsset} alt="bundt" />
-        <img className="fourth" src={cookieAsset} alt="cookie" />
+        <img className="third" src={crossiontAsset} alt="crossiont" />
+        <img className="third" src={bundtAsset} alt="bundt" />
+        <img className="third" src={cookieAsset} alt="cookie" />
       </Row>
       <Row>
         {" "}
