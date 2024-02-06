@@ -82,6 +82,9 @@ export const Row = styled.div`
   .twoThird {
     width: 90vw;
   }
+  .sevenths {
+    width: 22vw;
+  }
 
   @media (min-width: 600px) {
     flex-direction: row;
@@ -111,6 +114,9 @@ export const Row = styled.div`
     }
     .fourth {
       width: 15vw;
+    }
+    .sevenths {
+      width: 4vw;
     }
   }
 

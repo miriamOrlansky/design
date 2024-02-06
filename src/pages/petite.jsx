@@ -15,6 +15,23 @@ import bundtAsset from "../Images/bundtAsset.png";
 import cookieAsset from "../Images/cookieAsset.png";
 import crossiontAsset from "../Images/crossiontAsset.png";
 import mainPetite from "../Images/mainPetite.png";
+import inspo1 from "../Images/inspo1.jpg";
+import inspo2 from "../Images/inspo2.jpg";
+import inspo3 from "../Images/inspo3.jpg";
+import inspo4 from "../Images/inspo4.jpg";
+import inspo5 from "../Images/inspo5.webp";
+import inspo6 from "../Images/inspo6.webp";
+import inspo7 from "../Images/inspo7.jpg";
+import inspo8 from "../Images/inspo8.jpg";
+import inspo9 from "../Images/inspo9.jpg";
+import inspo10 from "../Images/inspo10.jpg";
+import inspo11 from "../Images/inspo11.jpg";
+import inspo12 from "../Images/inspo12.JPG";
+import inspo13 from "../Images/inspo13.jpg";
+import inspo14 from "../Images/inspo14.jpg";
+import inspo15 from "../Images/inspo15.jpg";
+import inspo16 from "../Images/inspo16.jpg";
+
 export default function Petite() {
   return (
     <Root>
@@ -50,32 +67,19 @@ export default function Petite() {
 
       <Row>
         {" "}
-        <div className="thick regular"> Development</div>
+        <div className="thick regular top"> Brand Development</div>
       </Row>
       <Row>
+        <div className="thick small">Brand Inspiration</div>
         <div>
-          <div className="thick small">Personas</div>
-          <div className="thin small">
-            <div>
-              Primary Persona: Alicia - mom striving to provide for her young
-              sons
-            </div>
-            <div>
-              Secondary Persona: Michael - a child who is bored while his mother
-              is preparing dinner
-            </div>
-            <div>Persona Development</div>
-            <div>
-              Each persona includes demographics, values & behaviors, and needs
-              & goals.
-            </div>
-            <div>
-              Alicia's needs: organization, ease of access, online shopping
-            </div>
-            <div>Michael's needs: Entertainment</div>
-          </div>
+          <img className="sevenths" src={inspo1} alt="inspo1" />
+          <img className="sevenths" src={inspo2} alt="inspo1" />
+          <img className="sevenths" src={inspo3} alt="inspo1" />
+          <img className="sevenths" src={inspo4} alt="inspo1" />
+          <img className="sevenths" src={inspo7} alt="inspo1" />
+          <img className="sevenths" src={inspo8} alt="inspo1" />
+          <img className="sevenths" src={inspo9} alt="inspo1" />
         </div>
-        <img src={personas} alt="Personas" />
       </Row>
       <Row>
         <div>
