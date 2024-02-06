@@ -63,12 +63,12 @@ export default function Petite() {
       </Row>
       <Row>
         <div>
-          <img className="sevenths" src={inspo1} alt="inspo1" />
-          <img className="sevenths" src={inspo2} alt="inspo1" />
-          <img className="sevenths" src={inspo3} alt="inspo1" />
-          <img className="sevenths" src={inspo4} alt="inspo1" />
-          <img className="sevenths" src={inspo7} alt="inspo1" />
-          <img className="sevenths" src={inspo8} alt="inspo1" />
+          <img className="fourth" src={inspo1} alt="inspo1" />
+          <img className="fourth" src={inspo2} alt="inspo1" />
+          <img className="fourth" src={inspo3} alt="inspo1" />
+          <img className="fourth" src={inspo4} alt="inspo1" />
+          <img className="fourth" src={inspo7} alt="inspo1" />
+          <img className="fourth" src={inspo8} alt="inspo1" />
         </div>
       </Row>
       <Row>
