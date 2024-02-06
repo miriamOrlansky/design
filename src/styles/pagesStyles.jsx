@@ -116,7 +116,7 @@ export const Row = styled.div`
       width: 15vw;
     }
     .sevenths {
-      width: 4vw;
+      width: 9vw;
     }
   }
 
