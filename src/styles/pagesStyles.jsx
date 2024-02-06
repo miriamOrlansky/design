@@ -83,7 +83,7 @@ export const Row = styled.div`
     width: 90vw;
   }
   .sevenths {
-    width: 22vw;
+    width: 35vw;
   }
 
   @media (min-width: 600px) {
