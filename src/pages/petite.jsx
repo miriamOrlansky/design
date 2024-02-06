@@ -37,7 +37,7 @@ export default function Petite() {
         </div>
       </Row>
       <Row>
-        <img src={mainPetite} alt="mainPetite" />
+        <img className="third" src={mainPetite} alt="mainPetite" />
       </Row>
       <Row>
         <img className="third" src={cookieAsset} alt="cookie" />
