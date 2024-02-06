@@ -23,7 +23,7 @@ export default function Petite() {
         <Subtitle>Branding for a quaint french bakery</Subtitle>
       </TitleSection>
       <Row>
-        <div className="thick regular">Company Statement</div>
+        <div className="thick regular top">Company Statement</div>
       </Row>
       <Row>
         <div>
@@ -40,16 +40,14 @@ export default function Petite() {
         <img className="twoThird" src={mainPetite} alt="mainPetite" />
       </Row>
       <Row>
-        <div className="thin small">Main Logo</div>
+        <div className="thin small top">Supporting Branding</div>
       </Row>
       <Row>
         <img className="third" src={cookieAsset} alt="cookie" />
         <img className="third" src={bundtAsset} alt="bundt" />
         <img className="third" src={crossiontAsset} alt="crossiont" />
       </Row>
-      <Row>
-        <div className="thin small">Supporting Branding</div>
-      </Row>
+
       <Row>
         {" "}
         <div className="thick regular"> Development</div>
