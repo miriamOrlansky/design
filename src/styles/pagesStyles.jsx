@@ -79,6 +79,9 @@ export const Row = styled.div`
   .third {
     width: 60vw;
   }
+  .half {
+    width: 90vw;
+  }
 
   @media (min-width: 600px) {
     flex-direction: row;
@@ -99,6 +102,9 @@ export const Row = styled.div`
     }
     .extraLarge {
       font-size: 32px;
+    }
+    .half {
+      width: 30vw;
     }
     .third {
       width: 20vw;
