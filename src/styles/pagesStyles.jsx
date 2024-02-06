@@ -80,7 +80,7 @@ export const Row = styled.div`
     width: 60vw;
   }
   .twoThird {
-    width: 100vw;
+    width: 90vw;
   }
 
   @media (min-width: 600px) {
@@ -104,7 +104,7 @@ export const Row = styled.div`
       font-size: 32px;
     }
     .twoThird {
-      width: 50vw;
+      width: 30vw;
     }
     .third {
       width: 20vw;
