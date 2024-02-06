@@ -83,7 +83,7 @@ export default function Petite() {
       </Row>
       <Row>
         <div>
-          <div className="thick small">User Journey</div>
+          <div className="thick small">User nJourney</div>
           <div className="thin small">
             <div>
               I mapped out the users’ steps to see how I could clarify their
