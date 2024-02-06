@@ -79,8 +79,8 @@ export const Row = styled.div`
   .third {
     width: 60vw;
   }
-  .half {
-    width: 90vw;
+  .twoThird {
+    width: 100vw;
   }
 
   @media (min-width: 600px) {
@@ -103,8 +103,8 @@ export const Row = styled.div`
     .extraLarge {
       font-size: 32px;
     }
-    .half {
-      width: 30vw;
+    .twoThird {
+      width: 50vw;
     }
     .third {
       width: 20vw;
