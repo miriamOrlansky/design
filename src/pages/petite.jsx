@@ -57,8 +57,7 @@ export default function Petite() {
       </Row>
 
       <Row>
-        {" "}
-        <div className="thick regular top"> Brand Development</div>
+        <div className="thick regular top">Brand Development</div>
       </Row>
       <Row>
         <div className="thick small">Brand Inspiration</div>
