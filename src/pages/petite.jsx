@@ -40,9 +40,15 @@ export default function Petite() {
         <img className="twoThird" src={mainPetite} alt="mainPetite" />
       </Row>
       <Row>
+        <div className="thin small">Main Logo</div>
+      </Row>
+      <Row>
         <img className="third" src={cookieAsset} alt="cookie" />
         <img className="third" src={bundtAsset} alt="bundt" />
         <img className="third" src={crossiontAsset} alt="crossiont" />
+      </Row>
+      <Row>
+        <div className="thin small">Supporting Branding</div>
       </Row>
       <Row>
         {" "}
