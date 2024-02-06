@@ -60,6 +60,8 @@ export default function Petite() {
       </Row>
       <Row>
         <div className="thick small">Brand Inspiration</div>
+      </Row>
+      <Row>
         <div>
           <img className="sevenths" src={inspo1} alt="inspo1" />
           <img className="sevenths" src={inspo2} alt="inspo1" />
