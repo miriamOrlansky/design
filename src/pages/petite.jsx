@@ -11,6 +11,9 @@ import sketch1 from "../Images/sketch1.jpg";
 import sketch2 from "../Images/sketch2.jpg";
 import sketch3 from "../Images/sketch3.jpg";
 import sketch4 from "../Images/sketch4.jpg";
+import bundtAsset from "../Images/bundtAsset.png";
+import cookieAsset from "../Images/cookieAsset.png";
+import crossiontAsset from "../Images/crossiontAsset.png";
 export default function Petite() {
   return (
     <Root>
@@ -33,8 +36,13 @@ export default function Petite() {
         </div>
       </Row>
       <Row>
+        <img src={crossiontAsset} alt="crossiont" />
+        <img src={bundtAsset} alt="bundt" />
+        <img src={cookieAsset} alt="cookie" />
+      </Row>
+      <Row>
         {" "}
-        <div className="thick regular">User Development</div>
+        <div className="thick regular"> Development</div>
       </Row>
       <Row>
         <div>
