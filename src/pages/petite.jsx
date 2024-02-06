@@ -19,18 +19,9 @@ import inspo1 from "../Images/inspo1.jpg";
 import inspo2 from "../Images/inspo2.jpg";
 import inspo3 from "../Images/inspo3.jpg";
 import inspo4 from "../Images/inspo4.jpg";
-import inspo5 from "../Images/inspo5.webp";
-import inspo6 from "../Images/inspo6.webp";
 import inspo7 from "../Images/inspo7.jpg";
 import inspo8 from "../Images/inspo8.jpg";
 import inspo9 from "../Images/inspo9.jpg";
-import inspo10 from "../Images/inspo10.jpg";
-import inspo11 from "../Images/inspo11.jpg";
-import inspo12 from "../Images/inspo12.JPG";
-import inspo13 from "../Images/inspo13.jpg";
-import inspo14 from "../Images/inspo14.jpg";
-import inspo15 from "../Images/inspo15.jpg";
-import inspo16 from "../Images/inspo16.jpg";
 
 export default function Petite() {
   return (
