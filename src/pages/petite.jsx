@@ -40,9 +40,9 @@ export default function Petite() {
         <img src={mainPetite} alt="mainPetite" />
       </Row>
       <Row>
-        <img className="third" src={crossiontAsset} alt="crossiont" />
-        <img className="third" src={bundtAsset} alt="bundt" />
         <img className="third" src={cookieAsset} alt="cookie" />
+        <img className="third" src={bundtAsset} alt="bundt" />
+        <img className="third" src={crossiontAsset} alt="crossiont" />
       </Row>
       <Row>
         {" "}
