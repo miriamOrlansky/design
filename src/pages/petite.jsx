@@ -21,7 +21,6 @@ import inspo3 from "../Images/inspo3.jpg";
 import inspo4 from "../Images/inspo4.jpg";
 import inspo7 from "../Images/inspo7.jpg";
 import inspo8 from "../Images/inspo8.jpg";
-import inspo9 from "../Images/inspo9.jpg";
 
 export default function Petite() {
   return (
@@ -68,7 +67,6 @@ export default function Petite() {
           <img className="sevenths" src={inspo4} alt="inspo1" />
           <img className="sevenths" src={inspo7} alt="inspo1" />
           <img className="sevenths" src={inspo8} alt="inspo1" />
-          <img className="sevenths" src={inspo9} alt="inspo1" />
         </div>
       </Row>
       <Row>
