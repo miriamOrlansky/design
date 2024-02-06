@@ -59,7 +59,7 @@ export default function Petite() {
         <div className="thick regular top">Brand Development</div>
       </Row>
       <Row>
-        <div className="thick small">Brand Inspiration</div>
+        <div className="thin small">Brand Inspiration</div>
       </Row>
       <Row>
         <div>
