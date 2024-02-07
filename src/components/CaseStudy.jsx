@@ -4,7 +4,7 @@ import { Info, Picture, Root, Title } from "../styles/caseStudyStyles";
 export default function CaseStudy({ title, source, link }) {
   return (
     <Root>
-      <Link to={link}>
+      <Link to={link} preventScrollReset={false}>
         <Picture>
           <img src={source} alt="caseStudyImg" />
         </Picture>
