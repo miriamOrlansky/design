@@ -1,6 +1,6 @@
 import React from "react";
 import { Root, Nav, NavLink } from "./components/NavbarElements";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/home";
 import Play from "./pages/play";
 import Resume from "./pages/resume";
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <Root backColor={color}>
-      <HashRouter>
+      <BrowserRouter baseName="miriamsdesign.com/">
         <Nav>
           <NavLink
             to="/"
@@ -64,7 +64,7 @@ function App() {
           <Route path="/clef" element={<Clef />} />
           <Route path="/petite" element={<Petite />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <Footer />
     </Root>
   );
