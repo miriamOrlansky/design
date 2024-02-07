@@ -26,7 +26,7 @@ function App() {
             to="/"
             TheColor={textColor}
             onClick={() => {
-              setColor("#F5E7E1");
+              setColor("#F1f1f1");
               setTextColor("#2D343B");
             }}
           >
