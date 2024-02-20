@@ -63,7 +63,7 @@ function App() {
           <Route path="/graphics" element={<Graphics />} />
           <Route path="/clef" element={<Clef />} />
           <Route path="/petite" element={<Petite />} />
-          <Route path="/*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
       <Footer />
