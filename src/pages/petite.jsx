@@ -21,6 +21,15 @@ import inspo3 from "../Images/inspo3.jpg";
 import inspo4 from "../Images/inspo4.jpg";
 import inspo7 from "../Images/inspo7.jpg";
 import inspo8 from "../Images/inspo8.jpg";
+import primary1 from "../Images/primary1.jpg";
+import primary2 from "../Images/primary2.jpg";
+import primary3 from "../Images/primary3.jpg";
+import secondary1 from "../Images/secondary1.jpg";
+import secondary2 from "../Images/secondary2.jpg";
+import secondary3 from "../Images/secondary3.jpg";
+import alternate1 from "../Images/alternate1.jpg";
+import alternate2 from "../Images/alternate2.jpg";
+import alternate3 from "../Images/alternate3.jpg";
 
 export default function Petite() {
   return (
@@ -72,23 +81,28 @@ export default function Petite() {
         </div>
       </Row>
       <Row>
-        <div>
-          <div className="thick small">User nJourney</div>
-          <div className="thin small">
-            <div>
-              I mapped out the users’ steps to see how I could clarify their
-              journey to ensure that the product meets all the needs of the
-              user.
-            </div>
-            <div>User Journey Development</div>
-            <div>
-              The steps of the user journey were determined by breaking down the
-              users' general weekly experiences to portray a picture of their
-              general emotions and thoughts.
-            </div>
-          </div>
-        </div>
-        <img src={journey} alt="journey" />
+        <div className="thin small top">Primary Colors</div>
+      </Row>
+      <Row>
+        <img className="third" src={primary1} alt="primary1" />
+        <img className="third" src={primary2} alt="primary2" />
+        <img className="third" src={primary3} alt="primary3" />
+      </Row>
+      <Row>
+        <div className="thin small top">Secondary Colors</div>
+      </Row>
+      <Row>
+        <img className="third" src={secondary1} alt="secondary1" />
+        <img className="third" src={secondary2} alt="secondary2" />
+        <img className="third" src={secondary3} alt="secondary3" />
+      </Row>
+      <Row>
+        <div className="thin small top">Alternate Logo Uses</div>
+      </Row>
+      <Row>
+        <img className="third" src={alternate1} alt="alternate1" />
+        <img className="third" src={alternate2} alt="alternate2" />
+        <img className="third" src={alternate3} alt="alternate3" />
       </Row>
       <Row>
         {" "}
