@@ -26,7 +26,8 @@ function App() {
 
   return (
     <Root backColor={color}>
-      <BrowserRouter baseName="miriamsdesign.com/">
+      {/* <BrowserRouter baseName="miriamsdesign.com/"> */}
+      <HashRouter>
         <Nav>
           <NavLink
             to="/"
@@ -69,18 +70,8 @@ function App() {
           <Route path="graphics" element={<Graphics />} />
           <Route path="clef" element={<Clef />} />
           <Route path="petite" element={<Petite />} />
-          <Route
-            path="*"
-            element={
-              <Navigate
-                replace
-                to="/"
-                state={{ from: window.location.pathname }}
-              />
-            }
-          />{" "}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </Root>
   );
