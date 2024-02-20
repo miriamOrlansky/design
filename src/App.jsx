@@ -1,12 +1,6 @@
 import React from "react";
 import { Root, Nav, NavLink } from "./components/NavbarElements";
-import {
-  HashRouter,
-  Routes,
-  Route,
-  BrowserRouter,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Play from "./pages/play";
 import Resume from "./pages/resume";
@@ -16,6 +10,7 @@ import Notee from "./pages/notee";
 import FridgIt from "./pages/fridgit";
 import Petite from "./pages/petite";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import { useState } from "react";
 
@@ -26,7 +21,6 @@ function App() {
 
   return (
     <Root backColor={color}>
-      {/* <BrowserRouter baseName="miriamsdesign.com/"> */}
       <HashRouter>
         <Nav>
           <NavLink
@@ -73,6 +67,7 @@ function App() {
         </Routes>
       </HashRouter>
       <Footer />
+      <ScrollToTop />
     </Root>
   );
 }
