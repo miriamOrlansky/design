@@ -1,6 +1,12 @@
 import React from "react";
 import { Root, Nav, NavLink } from "./components/NavbarElements";
-import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
+import {
+  HashRouter,
+  Routes,
+  Route,
+  BrowserRouter,
+  Navigate,
+} from "react-router-dom";
 import Home from "./pages/home";
 import Play from "./pages/play";
 import Resume from "./pages/resume";
@@ -55,7 +61,7 @@ function App() {
         </Nav>
 
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/play" element={<Play />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/notee" element={<Notee />} />
@@ -63,7 +69,7 @@ function App() {
           <Route path="/graphics" element={<Graphics />} />
           <Route path="/clef" element={<Clef />} />
           <Route path="/petite" element={<Petite />} />
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
       <Footer />
