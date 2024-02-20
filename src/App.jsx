@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Root backColor={color}>
-      <BrowserRouter baseName="miriamsdesign.com/">
+      <BrowserRouter basename="miriamsdesign.com/">
         <Nav>
           <NavLink
             to="/"
