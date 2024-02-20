@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Root backColor={color}>
-      <BrowserRouter basename="/miriamsdesign.com">
+      <BrowserRouter basename="miriamsdesign.com">
         <Nav>
           <NavLink
             to="/"
@@ -69,7 +69,7 @@ function App() {
           <Route path="graphics" element={<Graphics />} />
           <Route path="clef" element={<Clef />} />
           <Route path="petite" element={<Petite />} />
-          <Route
+          {/* <Route
             path="*"
             element={
               <Navigate
@@ -78,7 +78,7 @@ function App() {
                 state={{ from: window.location.pathname }}
               />
             }
-          />{" "}
+          />{" "} */}
         </Routes>
       </BrowserRouter>
       <Footer />
