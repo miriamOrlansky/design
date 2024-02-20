@@ -62,13 +62,13 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/play" element={<Play />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/notee" element={<Notee />} />
-          <Route path="/fridg-it" element={<FridgIt />} />
-          <Route path="/graphics" element={<Graphics />} />
-          <Route path="/clef" element={<Clef />} />
-          <Route path="/petite" element={<Petite />} />
+          <Route path="play" element={<Play />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="notee" element={<Notee />} />
+          <Route path="fridg-it" element={<FridgIt />} />
+          <Route path="graphics" element={<Graphics />} />
+          <Route path="clef" element={<Clef />} />
+          <Route path="petite" element={<Petite />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
