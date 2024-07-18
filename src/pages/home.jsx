@@ -5,6 +5,7 @@ import {
   Picture,
   SectionOne,
   SectionTwo,
+  SectionHeader,
 } from "../styles/homeStyles";
 import Typewriter from "typewriter-effect";
 import CaseStudy from "../components/CaseStudy";
@@ -67,6 +68,17 @@ export default function Home() {
           </svg>
         </Picture>
       </SectionOne>
+      <SectionTwo>
+        <CaseStudy title="Fridg-It" source={FridgIt} link="/fridg-it" />
+        <StudyCase title="Clef" source={Clef} link="/clef" />
+        <CaseStudy title="Notee" source={Notee} link="/notee" />
+        <StudyCase
+          title="Petite Patisserie"
+          source={GraphicDesign}
+          link="/petite"
+        />
+      </SectionTwo>
+      <SectionHeader>College Work</SectionHeader>
       <SectionTwo>
         <CaseStudy title="Fridg-It" source={FridgIt} link="/fridg-it" />
         <StudyCase title="Clef" source={Clef} link="/clef" />

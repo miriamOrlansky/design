@@ -27,6 +27,14 @@ export const SectionTwo = styled.div`
   justify-content: center;
   margin-bottom: 20%;
 `;
+
+export const SectionHeader = styled.div`
+  display: flex;
+  justify-content: center;
+  background: ${colors.white};
+  padding: "20%";
+  color: ${colors.black};
+`;
 export const Title = styled.div`
   display: flex;
   flex-direction: column;
