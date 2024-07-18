@@ -6,7 +6,7 @@ export const Root = styled.div`
 `;
 
 export const TitleSection = styled.div`
-  background-color: ${(props) => props.backColor};
+  background-color: ${colors.black};
   color: ${colors.white};
   text-align: center;
   padding: 3rem calc((100vw - 90vw) / 2);
