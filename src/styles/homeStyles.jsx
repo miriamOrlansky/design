@@ -32,8 +32,9 @@ export const SectionHeader = styled.div`
   display: flex;
   justify-content: center;
   background: ${colors.black};
-  padding: 10;
-  color: ${colors.pink};
+  padding: 20;
+  color: ${colors.white};
+  text-weight: bold;
 `;
 export const Title = styled.div`
   display: flex;
