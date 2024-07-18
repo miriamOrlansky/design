@@ -25,6 +25,7 @@ export const Subtitle = styled.div`
 `;
 
 export const Row = styled.div`
+  color: ${colors.black}
   padding: 0.3rem calc((100vw - 90vw) / 2);
   display: flex;
   flex-direction: column;
