@@ -35,6 +35,7 @@ export const SectionHeader = styled.div`
   padding: 20;
   color: ${colors.white};
   text-weight: bold;
+  margin-bottom: 20%;
 `;
 export const Title = styled.div`
   display: flex;
