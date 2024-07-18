@@ -29,11 +29,10 @@ export const SectionTwo = styled.div`
 `;
 
 export const SectionHeader = styled.div`
-  width: 100vw;
   display: flex;
   justify-content: center;
   background: ${colors.black};
-  padding: 20%;
+  padding: 4%;
   color: ${colors.pink};
 `;
 export const Title = styled.div`
