@@ -39,7 +39,7 @@ function App() {
           >
             Work
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/play"
             TheColor={textColor}
             onClick={() => {
@@ -48,7 +48,7 @@ function App() {
             }}
           >
             Play
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/resume"
             TheColor={textColor}
@@ -63,7 +63,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="play" element={<Play />} />
+          {/* <Route path="play" element={<Play />} /> */}
           <Route path="resume" element={<Resume />} />
           <Route path="notee" element={<Notee />} />
           <Route path="fridg-it" element={<FridgIt />} />
